@@ -13,8 +13,8 @@ module.exports = {
         // Add these to a .env file
         // Details on finding these values can be found at:
         // https://gridsome.org/plugins/@gridsome/source-airtable
-        apiKey: 'keyHePN4WJmZgSs8y', //required
-        baseId: 'appjXPKZrAsqxTZxv', //required
+        apiKey: process.env.keyHePN4WJmZgSs8y, //required
+        baseId: process.env.appjXPKZrAsqxTZxv, //required
         tableName: 'db', //required
         typeName: 'db', //required - needs to match template name
         route: '/people/:id' //optional
